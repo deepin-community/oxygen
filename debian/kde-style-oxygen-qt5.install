@@ -1,0 +1,16 @@
+usr/bin/oxygen-demo5
+usr/bin/oxygen-settings5
+usr/lib/*/qt5/plugins/kstyle_oxygen_config.so
+usr/lib/*/qt5/plugins/styles/oxygen.so
+usr/share/color-schemes/Oxygen.colors
+usr/share/color-schemes/OxygenCold.colors
+usr/share/icons/hicolor/256x256/apps/oxygen-settings.png
+usr/share/icons/KDE_Classic/
+usr/share/icons/Oxygen_Black/
+usr/share/icons/Oxygen_Blue/
+usr/share/icons/Oxygen_White/
+usr/share/icons/Oxygen_Yellow/
+usr/share/icons/Oxygen_Zion/
+usr/share/kstyle/themes/oxygen.themerc
+usr/share/locale/*/*/oxygen_style_config.mo
+usr/share/locale/*/*/oxygen_style_demo.mo

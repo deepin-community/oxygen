@@ -1,0 +1,4 @@
+usr/lib/*/liboxygenstyleconfig5.so.5
+usr/lib/*/liboxygenstyleconfig5.so.5.*
+usr/share/kservices5/oxygenstyleconfig.desktop
+usr/share/locale/*/*/liboxygenstyleconfig.mo

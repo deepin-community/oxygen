@@ -1,0 +1,11 @@
+//////////////////////////////////////////////////////////////////////////////
+// oxygenanimation.h
+// stores event filters and maps widgets to animations for animations
+// -------------------
+//
+// SPDX-FileCopyrightText: 2009 Hugo Pereira Da Costa <hugo.pereira@free.fr>
+//
+// SPDX-License-Identifier: MIT
+//////////////////////////////////////////////////////////////////////////////
+
+#include "oxygenanimation.h"

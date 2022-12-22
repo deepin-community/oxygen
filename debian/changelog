@@ -1,0 +1,578 @@
+oxygen (4:5.23.3-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 10 Nov 2021 08:40:28 +0900
+
+oxygen (4:5.23.2-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.1).
+  * New upstream release (5.23.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Nov 2021 22:21:03 +0900
+
+oxygen (4:5.23.0-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Update upstream signing-key.
+  * Tighten build-dependencies.
+  * Bump Standards-Version to 4.6.0 (no changes needed).
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 14 Oct 2021 20:59:43 +0200
+
+oxygen (4:5.23.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.23.0).
+
+ -- Norbert Preining <norbert@preining.info>  Thu, 14 Oct 2021 20:13:15 +0900
+
+oxygen (4:5.21.5-2) unstable; urgency=medium
+
+  [ Patrick Franz ]
+  * Release to unstable.
+
+ -- Patrick Franz <deltaone@debian.org>  Tue, 17 Aug 2021 03:24:30 +0200
+
+oxygen (4:5.21.5-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.5).
+
+ -- Patrick Franz <patfra71@gmail.com>  Fri, 07 May 2021 18:04:41 +0200
+
+oxygen (4:5.21.4-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.4).
+
+ -- Patrick Franz <patfra71@gmail.com>  Tue, 06 Apr 2021 17:47:28 +0200
+
+oxygen (4:5.21.3-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.3).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Mar 2021 05:49:42 +0900
+
+oxygen (4:5.21.2-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (5.21.2).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 03 Mar 2021 05:33:50 +0900
+
+oxygen (4:5.21.1-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.1).
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 24 Feb 2021 14:36:40 +0900
+
+oxygen (4:5.21.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.21.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 17 Feb 2021 05:42:27 +0900
+
+oxygen (4:5.20.5-1) unstable; urgency=medium
+
+  * New upstream release (5.20.5).
+  * Update lintian overrides.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 06 Jan 2021 23:50:52 +0900
+
+oxygen (4:5.20.4-2) unstable; urgency=medium
+
+  * Release to unstable.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 22 Dec 2020 11:04:37 +0900
+
+oxygen (4:5.20.4-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (5.20.4).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 09 Dec 2020 14:17:32 +0900
+
+oxygen (4:5.19.5-4) unstable; urgency=medium
+
+  [ Scarlett Moore ]
+  * Fix "missing Breaks+Replaces: plasma-desktop-data (<< 4:5.19)"
+   Add Breaks/Replaces to plasma-desktop-data. (Closes: #974052)
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 10 Nov 2020 04:49:11 +0900
+
+oxygen (4:5.19.5-3) unstable; urgency=medium
+
+  [ Scarlett Moore ]
+  * Remove obsolete entries in d/upstream/metadata.
+  
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+   + kwin-decoration-oxygen, liboxygenstyle5-5, liboxygenstyleconfig5-5,
+     plasma-theme-oxygen: Add Multi-Arch: same.+ oxygen-sounds: Add Multi-Arch:
+     foreign.
+
+ -- Norbert Preining <norbert@preining.info>  Fri, 06 Nov 2020 09:14:45 +0900
+
+oxygen (4:5.19.5-2) experimental; urgency=medium
+
+  * Rebuild for Qt 5.15
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 02 Nov 2020 09:27:41 +0900
+
+oxygen (4:5.19.5-1) experimental; urgency=medium
+
+  * New upstream release (5.19.5).
+  * Add Scarlett and myself to uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 19 Oct 2020 13:55:35 +0900
+
+oxygen (4:5.19.4-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Patrick Franz ]
+  * New upstream release (5.19.4).
+  * Bump compat level to 13.
+  * Change Maintainer in debian/control to Debian Qt/KDE Maintainers.
+  * Remove Maxy from Uploaders as requested.
+  * Add hardening=+all build flag.
+  * Add Rules-Requires-Root field to debian/control.
+  * Remove unneeded injection of linker flags.
+  * Change Homepage in debian/control to new invent.kde.org
+  * Update build-deps and deps with the info from cmake.
+  * Add myself to Uploaders.
+  * Change Source in debian/copyright to new invent.kde.org
+  * Set Upstream-Contact in debian/copyright.
+  * Update data in /debian/upstream/metadata.
+  * Update files in debian/kde-style-oxygen-qt5.install.
+  * Update files in debian/copyright.
+
+ -- Norbert Preining <norbert@preining.info>  Wed, 07 Oct 2020 13:15:19 +0900
+
+oxygen (4:5.17.5-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
+  * Bump Standards-Version to 4.5.0, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 14 Feb 2020 20:58:35 +0100
+
+oxygen (4:5.17.5-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.16.5).
+  * Salsa CI automatic initialization by Tuco
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Update the build dependencies according to the upstream build system:
+    - bump libkdecorations2-dev to 5.17
+    - remove unused kwin-dev, libkf5auth-dev, libkf5codecs-dev, and
+      libkf5coreaddons-dev
+    - explicitly add gettext
+  * Remove breaks/replaces for versions older than oldstable.
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+  * Bump Standards-Version to 4.4.1, no changes required.
+  * Switch section of liboxygenstyle5-5, and liboxygenstyleconfig5-5 to libs.
+  * Remove unused DEB_HOST_MULTIARCH variable in rules.
+  * Remove debian/not-installed: it contains old files, and some of the files
+    there could be installed in the future.
+  * Tighten inter-library dependencies.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 17 Jan 2020 23:27:45 +0100
+
+oxygen (4:5.14.5-2) unstable; urgency=medium
+
+  * New revision
+  * Drop qt4 support (Closes: 875078)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Aug 2019 12:46:42 -0300
+
+oxygen (4:5.14.5-1) unstable; urgency=medium
+
+  * New upstream release (5.14.5).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 24 Jan 2019 09:26:02 -0300
+
+oxygen (4:5.14.3-1) unstable; urgency=medium
+
+  * Update upsteam signing-key
+  * New upstream release (5.14.3).
+  * Bump group breaks (4:5.14)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Nov 2018 08:50:39 -0300
+
+oxygen (4:5.13.4-1) unstable; urgency=medium
+
+  * New upstream release (5.13.4).
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 23:18:11 +0200
+
+oxygen (4:5.13.1-1) unstable; urgency=medium
+
+  * New upstream release (5.13.1).
+  * Bump group breaks (4:5.13)
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:43:13 +0200
+
+oxygen (4:5.12.5-1) unstable; urgency=medium
+
+  * New upstream release (5.12.2).
+  * New upstream release (5.12.5).
+  * Bump Standards-Version to 4.1.4.
+  * Use https for the debian/copyright
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 May 2018 13:24:03 +0200
+
+oxygen (4:5.12.1-1) sid; urgency=medium
+
+  * Use the salsa canonical urls
+  * New upstream release (5.12.1).
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Feb 2018 22:08:59 +0100
+
+oxygen (4:5.12.0-2) sid; urgency=medium
+
+  * New revision
+  * Add libkf5wayland-dev optional build dep
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:03:47 +0100
+
+oxygen (4:5.12.0-1) experimental; urgency=medium
+
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Add link options as-needed
+  * Add Bhushan Shah upstream signing key
+  * New upstream release (5.12.0).
+  * Bump Standards-Version to 4.1.3.
+  * Bump group breaks (5.12)
+  * Use https uri for uscan
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Feb 2018 15:20:57 +0100
+
+oxygen (4:5.11.4-1) experimental; urgency=medium
+
+  * New upstream release (5.11.4).
+  * Bump Standards-Version to 4.1.2.
+  * Release to experimental
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:49:09 -0300
+
+oxygen (4:5.10.5-2) sid; urgency=medium
+
+  * New revision
+  * Bump Standards-Version to 4.1.0.
+  * Release to sid
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:55:37 +0200
+
+oxygen (4:5.10.5-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * Bump group breaks (5.10)
+  * New upstream release (5.10.4).
+  * Update build-deps and deps with the info from cmake
+  * Set Priority to optional
+  * New upstream release (5.10.5).
+  * Release to experimental
+
+  [ Jonathan Riddell ]
+  * update watch file to version=4 with pgp signature checking
+
+  [ Harald Sitter ]
+  * add qml dependency as detected by CI
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:29:24 +0200
+
+oxygen (4:5.8.5-1) experimental; urgency=medium
+
+  * New upstream release (5.8.5).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 30 Dec 2016 18:46:20 +0100
+
+oxygen (4:5.8.4-1) unstable; urgency=medium
+
+  * New upstream release (5.8.4)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:37:40 +0100
+
+oxygen (4:5.8.2-1) unstable; urgency=medium
+
+  * New upstream release (5.8.2)
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:27:13 +0200
+
+oxygen (4:5.8.1-1) unstable; urgency=medium
+
+  * New upstream release (5.8.1)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 23:01:11 +0200
+
+oxygen (4:5.8.0-1) unstable; urgency=medium
+
+  * New upstream release (5.8.0)
+  * Bump group breaks (5.8)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:09:25 +0200
+
+oxygen (4:5.7.4-1) unstable; urgency=medium
+
+  * New upstream release (5.7.4)
+  * Bump group breaks (5.7)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 27 Aug 2016 17:26:56 +0200
+
+oxygen (4:5.7.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Jul 2016 08:20:34 +0200
+
+oxygen (4:5.6.5-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 10:51:36 +0200
+
+oxygen (4:5.6.4-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 May 2016 11:34:00 +0200
+
+oxygen (4:5.5.4-1) experimental; urgency=medium
+
+  * New upstream release (5.5.0).
+  * New upstream release (5.5.1).
+  * New upstream release (5.5.2).
+  * New upstream release (5.5.3).
+  * New upstream release (5.5.4).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:49:13 +0100
+
+oxygen (4:5.4.3-1) unstable; urgency=medium
+
+  * New upstream release (5.4.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Dec 2015 11:46:04 +0100
+
+oxygen (4:5.4.2-1) unstable; urgency=medium
+
+  * New upstream release (5.4.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 06 Oct 2015 07:52:21 +0200
+
+oxygen (4:5.4.1-1) unstable; urgency=medium
+
+  * New upstream release (5.4.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Sep 2015 18:45:38 +0200
+
+oxygen (4:5.4.0-1) unstable; urgency=medium
+
+  * New upstream release (5.4.0).
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 04 Sep 2015 10:23:39 +0200
+
+oxygen (4:5.3.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * Add a transitional package for kde-style-oxygen.
+  * Add a symlink for kde-style-oxygen-qt4 in the qt4 plugins dirs.
+    (Closes: #794754)
+
+ -- Felix Geyer <fgeyer@debian.org>  Tue, 01 Sep 2015 22:44:08 +0200
+
+oxygen (4:5.3.2-3) unstable; urgency=medium
+
+  * Add the missing Breaks/Replaces.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 14:07:49 +0200
+
+oxygen (4:5.3.2-2) unstable; urgency=medium
+
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 02 Jul 2015 12:09:54 +0200
+
+oxygen (4:5.3.2-1) unstable; urgency=medium
+
+  * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
+  * New upstream release (5.3.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 01 Jul 2015 14:22:45 +0200
+
+oxygen (4:5.3.2-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 12:41:49 +0000
+
+oxygen (4:5.3.1-0ubuntu1) wily; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:38:55 +0200
+
+oxygen (4:5.2.2-0ubuntu2) vivid; urgency=medium
+
+  * Fix kde-style-oxygen-qt5.install
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 25 Mar 2015 00:11:23 +0100
+
+oxygen (4:5.2.2-1) experimental; urgency=medium
+
+  * New upstream release (5.2.1).
+  * New upstream release (5.2.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:17:55 +0100
+
+oxygen (4:5.2.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Add oxygen_kwin_deco.mo files to not-installed due to
+    kwin-decoration-oxygen package being removed.
+  * Re- remove kwin-decoration-oxygen package, it no longer builds
+  * Remove missing file.
+  * Fix stubvar external package for removed package.
+  * Add missing file.
+  * Re add missing files to make ci happy.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 24 Mar 2015 07:37:03 -0700
+
+oxygen (4:5.2.1-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:45:33 -0800
+
+oxygen (4:5.2.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Add myself as Uploader.
+  * Also build the qt4 version.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 09 Feb 2015 13:08:22 +0100
+
+oxygen (4:5.2.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 27 Jan 2015 14:57:22 +0100
+
+oxygen (4:5.1.95-0ubuntu2) vivid; urgency=medium
+
+  * remove kwin-decoration-oxygen package, it no longer builds
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 19 Jan 2015 13:07:21 +0100
+
+oxygen (4:5.1.95-0ubuntu1) vivid; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Jan 2015 01:34:16 +0100
+
+oxygen (4:5.1.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 15 Dec 2014 13:25:13 +0100
+
+oxygen (4:5.1.1-0ubuntu1) vivid; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+  * Add upstream_dont-install-build-files.diff to not install unused files
+  * Rename oxygen-look-and-feel to plasma-theme-oxygen and make it depend
+    on other parts it expects
+  * Add dependency on kde-style-oxygen-qt4
+
+  [ Scarlett Clark ]
+  * Add missing look-and-feel files to a new package.
+  * Fix extra space in changelog causing lintian error.
+  * wrap-and sort
+  * Override missing manpage lintian error.
+  * Correct the filename for the lintian override.
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 10 Nov 2014 19:50:45 +0100
+
+oxygen (4:5.0.2-0ubuntu1) utopic; urgency=medium
+
+  [ Harald Sitter ]
+  * switch to new pkg-kde-tools
+
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 17 Sep 2014 18:19:51 -0700
+
+oxygen (4:5.0.1-0ubuntu1~ubuntu14.10~ppa2) utopic; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+  [ Scarlett Clark ]
+  * Fix depend versions
+  * wrap-and-sort
+  * Add Vcs
+  * Update watch to http://download.kde.org
+
+  [ Jonathan Riddell ]
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:44:23 +0200
+
+oxygen (4:4.98.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 07 Jul 2014 13:27:14 +0200
+
+oxygen (4:4.97.0-0ubuntu1) utopic; urgency=medium
+
+  * Initial release.
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 09 Jun 2014 10:26:37 +0100

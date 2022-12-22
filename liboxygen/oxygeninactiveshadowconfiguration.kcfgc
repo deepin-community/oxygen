@@ -1,0 +1,6 @@
+File=oxygeninactiveshadowconfigdata.kcfg
+ClassName=InactiveShadowConfiguration
+NameSpace=Oxygen
+Singleton=true
+Mutators=true
+GlobalEnums=true
